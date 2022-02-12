@@ -16,6 +16,7 @@ class HomePage extends StatelessWidget {
         children: [
           firstPage(),
           secondPage(),
+          thirdPage(),
         ],
       ),
     );
@@ -55,6 +56,31 @@ class HomePage extends StatelessWidget {
               "This is the SECOND page!",
               textAlign: TextAlign.center,
               style: GoogleFonts.lato(
+                fontSize: 20,
+                color: Colors.white,
+
+                // fontStyle: FontStyle.italic,
+              ),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+
+  Container thirdPage() {
+    return Container(
+      padding: const EdgeInsets.all(20.0),
+      color: Colors.purple,
+      child: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              "This is the THIRD page!",
+              textAlign: TextAlign.center,
+              style: GoogleFonts.lato(
+                color: Colors.white,
                 fontSize: 20,
                 // fontStyle: FontStyle.italic,
               ),

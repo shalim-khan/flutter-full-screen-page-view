@@ -33,10 +33,7 @@ class HomePage extends StatelessWidget {
             Text(
               "This is the FIRST page!",
               textAlign: TextAlign.center,
-              style: GoogleFonts.lato(
-                fontSize: 20,
-                // fontStyle: FontStyle.italic,
-              ),
+              style: GoogleFonts.lato(fontSize: 20),
             )
           ],
         ),
@@ -58,8 +55,6 @@ class HomePage extends StatelessWidget {
               style: GoogleFonts.lato(
                 fontSize: 20,
                 color: Colors.white,
-
-                // fontStyle: FontStyle.italic,
               ),
             )
           ],
@@ -82,7 +77,6 @@ class HomePage extends StatelessWidget {
               style: GoogleFonts.lato(
                 color: Colors.white,
                 fontSize: 20,
-                // fontStyle: FontStyle.italic,
               ),
             )
           ],

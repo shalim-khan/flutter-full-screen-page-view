@@ -33,9 +33,8 @@ class HomePage extends StatelessWidget {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [
-            Color(0xFF2C5364),
-            Color(0xFF203A43),
-            Color(0xFF0F2027),
+            Color(0xFFFDC830),
+            Color(0xFFF37335),
           ],
         ),
       ),
@@ -49,7 +48,7 @@ class HomePage extends StatelessWidget {
               style: GoogleFonts.getFont(
                 mainFont,
                 fontSize: 50,
-                fontWeight: FontWeight.bold,
+                // fontWeight: FontWeight.bold, // web HTML renderer messes up bold text
               ),
             )
           ],
@@ -72,7 +71,7 @@ class HomePage extends StatelessWidget {
               style: GoogleFonts.getFont(
                 mainFont,
                 fontSize: 50,
-                fontWeight: FontWeight.bold,
+                // fontWeight: FontWeight.bold, // web HTML renderer messes up bold text
                 // color: Colors.white,
               ),
             )
@@ -107,7 +106,7 @@ class HomePage extends StatelessWidget {
                 mainFont,
                 // color: Colors.white,
                 fontSize: 50,
-                fontWeight: FontWeight.bold,
+                // fontWeight: FontWeight.bold, // web HTML renderer messes up bold text
               ),
             )
           ],

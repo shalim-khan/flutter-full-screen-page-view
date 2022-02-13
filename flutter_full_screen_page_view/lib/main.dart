@@ -27,7 +27,18 @@ class HomePage extends StatelessWidget {
   Container firstPage() {
     return Container(
       padding: const EdgeInsets.all(20.0),
-      color: Colors.orange,
+      // color: Colors.orange,
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [
+            Color(0xFF2C5364),
+            Color(0xFF203A43),
+            Color(0xFF0F2027),
+          ],
+        ),
+      ),
       child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -74,7 +85,17 @@ class HomePage extends StatelessWidget {
   Container thirdPage() {
     return Container(
       padding: const EdgeInsets.all(20.0),
-      color: Colors.purple,
+      // color: Colors.purple,
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [
+            Color(0xFFad5389),
+            Color(0xFF3c1053),
+          ],
+        ),
+      ),
       child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'utils.dart';
 
+var mainFont = "Raleway";
+
 void main() {
   runApp(CleanApp(home: HomePage()));
 }
@@ -33,7 +35,11 @@ class HomePage extends StatelessWidget {
             Text(
               "First page",
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 50),
+              style: GoogleFonts.getFont(
+                mainFont,
+                fontSize: 50,
+                fontWeight: FontWeight.bold,
+              ),
             )
           ],
         ),
@@ -52,8 +58,10 @@ class HomePage extends StatelessWidget {
             Text(
               "Second page",
               textAlign: TextAlign.center,
-              style: TextStyle(
+              style: GoogleFonts.getFont(
+                mainFont,
                 fontSize: 50,
+                fontWeight: FontWeight.bold,
                 // color: Colors.white,
               ),
             )
@@ -74,9 +82,11 @@ class HomePage extends StatelessWidget {
             Text(
               "Third page",
               textAlign: TextAlign.center,
-              style: TextStyle(
+              style: GoogleFonts.getFont(
+                mainFont,
                 // color: Colors.white,
                 fontSize: 50,
+                fontWeight: FontWeight.bold,
               ),
             )
           ],

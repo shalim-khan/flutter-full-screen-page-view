@@ -17,19 +17,19 @@ class CleanApp extends StatelessWidget {
         brightness: Brightness.light,
         primaryColor: Colors.cyan, // iOS PWA status bar background color for light AND dark modes
         scaffoldBackgroundColor: Colors.white,
-        textTheme: getTextTheme(context),
+        // textTheme: getTextTheme(context),
       ),
       darkTheme: ThemeData(
         brightness: Brightness.dark,
         scaffoldBackgroundColor: Colors.grey.shade900,
-        textTheme: getTextTheme(context),
+        // textTheme: getTextTheme(context),
       ),
     );
   }
 }
 
-getTextTheme(context) {
-  return GoogleFonts.interTextTheme(
-    Theme.of(context).textTheme, // If this is not set, then ThemeData.light().textTheme is used.
-  );
-}
+// getTextTheme(context) {
+//   return GoogleFonts.archivoTextTheme(
+//     Theme.of(context).textTheme, // If this is not set, then ThemeData.light().textTheme is used.
+//   );
+// }

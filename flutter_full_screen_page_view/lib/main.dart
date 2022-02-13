@@ -31,9 +31,9 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              "This is the FIRST page!",
+              "This is the first page",
               textAlign: TextAlign.center,
-              style: GoogleFonts.lato(fontSize: 20),
+              style: GoogleFonts.lato(fontSize: 50),
             )
           ],
         ),
@@ -50,10 +50,10 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              "This is the SECOND page!",
+              "This is the second page",
               textAlign: TextAlign.center,
               style: GoogleFonts.lato(
-                fontSize: 20,
+                fontSize: 50,
                 color: Colors.white,
               ),
             )
@@ -72,11 +72,11 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              "This is the THIRD page!",
+              "This is the third page",
               textAlign: TextAlign.center,
               style: GoogleFonts.lato(
                 color: Colors.white,
-                fontSize: 20,
+                fontSize: 50,
               ),
             )
           ],

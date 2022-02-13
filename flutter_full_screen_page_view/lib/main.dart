@@ -48,6 +48,7 @@ class HomePage extends StatelessWidget {
               style: GoogleFonts.getFont(
                 mainFont,
                 fontSize: 50,
+                color: Colors.white,
                 // fontWeight: FontWeight.bold, // web HTML renderer messes up bold text
               ),
             )
@@ -71,8 +72,8 @@ class HomePage extends StatelessWidget {
               style: GoogleFonts.getFont(
                 mainFont,
                 fontSize: 50,
+                color: Colors.white,
                 // fontWeight: FontWeight.bold, // web HTML renderer messes up bold text
-                // color: Colors.white,
               ),
             )
           ],
@@ -104,8 +105,8 @@ class HomePage extends StatelessWidget {
               textAlign: TextAlign.center,
               style: GoogleFonts.getFont(
                 mainFont,
-                // color: Colors.white,
                 fontSize: 50,
+                color: Colors.white,
                 // fontWeight: FontWeight.bold, // web HTML renderer messes up bold text
               ),
             )
